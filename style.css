@@ -1,6 +1,4 @@
-:root {
-
-}
+:root { }
 
 html {
     font-size: 62.5%;
@@ -24,7 +22,7 @@ html {
 
 }
 
-.calculator-screen {
+#calculator-screen {
     width: 100%;
     font-size: 5rem;
     height: 80px;
@@ -81,7 +79,7 @@ button:hover {
     border-color: #337cac;
     color: #fff;
     height: 100%;
-    grid-area: 2 / 4 / 6 / 5;
+    grid-area: 2 / 4 / span 4;
 }
 
 .equal-sign:hover {
@@ -93,4 +91,9 @@ button:hover {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
+}
+
+
+.is-depressed {
+    background-color: #eaeaea;
 }
